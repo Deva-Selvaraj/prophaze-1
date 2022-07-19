@@ -1,0 +1,19 @@
+<div class="form">
+  <form #formDir="ngForm" [formGroup]="createBookForm" (ngSubmit)="onSubmit()" class="form__content">
+    <h1>Hexadecimal Decoder</h1>
+    <div class="form__box">
+      <input type="text" class="form__input" placeholder="Enter Hexadecimal Value" formControlName='Payload'/>
+      <label for="" class="form__label">Enter Hexadecimal Value</label>
+      <div class="form__shadow"></div>
+    </div>
+    <div class="form__box">
+      <input readonly type="text" class="form__input" placeholder="Output" formControlName='data4'/>
+      <label for="" class="form__label">Output</label>
+      <div class="form__shadow"></div>
+    </div>
+
+    <div class="form__button">
+      <input type="Submit" class="form__submit" value="Submit" />
+    </div>
+  </form>
+</div>
