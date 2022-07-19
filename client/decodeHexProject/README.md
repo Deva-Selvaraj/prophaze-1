@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+LOGIC
+step1:got the payload
+step2:changed the hexadecimal payload into ascii
+step3:converted the ascii into readable format
+step4:then decrypted from base64.
